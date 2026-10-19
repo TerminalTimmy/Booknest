@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\n============================================");
         System.out.println("     Welcome to BookNest Library System");
+        System.out.println("     Running on Java " + System.getProperty("java.version"));
         System.out.println("============================================");
 
         // Test database connection on startup
